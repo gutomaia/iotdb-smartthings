@@ -33,7 +33,7 @@ try:
 except:
     class iotdb_log(object):
         @staticmethod
-        def log(**ad):
+        def log(cls, **ad):
             pprint.pprint(ad)
 
 class SmartThings(object):
